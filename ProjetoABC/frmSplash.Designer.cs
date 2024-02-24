@@ -53,7 +53,6 @@ namespace ProjetoABC
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(300, 32);
             this.progressBar1.TabIndex = 1;
-            this.progressBar1.Value = 50;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // label1
