@@ -30,61 +30,62 @@ namespace ProjetoABC
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.prgimage = new System.Windows.Forms.PictureBox();
+            this.bar = new System.Windows.Forms.ProgressBar();
+            this.lb = new System.Windows.Forms.Label();
+            this.lb2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.prgimage)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // prgimage
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(240, 112);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 225);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.prgimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.prgimage.Image = ((System.Drawing.Image)(resources.GetObject("prgimage.Image")));
+            this.prgimage.Location = new System.Drawing.Point(240, 112);
+            this.prgimage.Name = "prgimage";
+            this.prgimage.Size = new System.Drawing.Size(300, 225);
+            this.prgimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.prgimage.TabIndex = 0;
+            this.prgimage.TabStop = false;
             // 
-            // progressBar1
+            // bar
             // 
-            this.progressBar1.Location = new System.Drawing.Point(240, 399);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(300, 32);
-            this.progressBar1.TabIndex = 1;
-            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            this.bar.Location = new System.Drawing.Point(240, 399);
+            this.bar.Name = "bar";
+            this.bar.Size = new System.Drawing.Size(300, 32);
+            this.bar.TabIndex = 1;
+            this.bar.Click += new System.EventHandler(this.progressBar1_Click);
             // 
-            // label1
+            // lb
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(376, 372);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 24);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "0";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lb.AutoSize = true;
+            this.lb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb.Location = new System.Drawing.Point(376, 372);
+            this.lb.Name = "lb";
+            this.lb.Size = new System.Drawing.Size(20, 24);
+            this.lb.TabIndex = 2;
+            this.lb.Text = "0";
+            this.lb.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // lb2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(390, 372);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 24);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "%";
+            this.lb2.AutoSize = true;
+            this.lb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb2.Location = new System.Drawing.Point(390, 372);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(25, 24);
+            this.lb2.TabIndex = 3;
+            this.lb2.Text = "%";
             // 
             // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lb2);
+            this.Controls.Add(this.lb);
+            this.Controls.Add(this.bar);
+            this.Controls.Add(this.prgimage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -92,7 +93,7 @@ namespace ProjetoABC
             this.Name = "frmSplash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "loja ABC-Splash";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prgimage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,9 +101,9 @@ namespace ProjetoABC
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox prgimage;
+        private System.Windows.Forms.ProgressBar bar;
+        private System.Windows.Forms.Label lb;
+        private System.Windows.Forms.Label lb2;
     }
 }
