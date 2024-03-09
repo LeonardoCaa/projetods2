@@ -110,6 +110,7 @@ namespace ProjetoABC
             this.btnFuncionarios.Text = "Funcionário&s";
             this.btnFuncionarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFuncionarios.UseVisualStyleBackColor = true;
+            this.btnFuncionarios.Click += new System.EventHandler(this.btnFuncionarios_Click);
             // 
             // btnVoltar
             // 
