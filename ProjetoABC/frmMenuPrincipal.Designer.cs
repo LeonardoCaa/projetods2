@@ -46,8 +46,8 @@ namespace ProjetoABC
             this.btnClientes.Location = new System.Drawing.Point(36, 41);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(200, 194);
-            this.btnClientes.TabIndex = 8;
-            this.btnClientes.Text = "Clientes";
+            this.btnClientes.TabIndex = 0;
+            this.btnClientes.Text = "&Clientes";
             this.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnClientes.UseVisualStyleBackColor = true;
             // 
@@ -58,8 +58,8 @@ namespace ProjetoABC
             this.btnProdutos.Location = new System.Drawing.Point(271, 41);
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(200, 194);
-            this.btnProdutos.TabIndex = 9;
-            this.btnProdutos.Text = "Produtos";
+            this.btnProdutos.TabIndex = 1;
+            this.btnProdutos.Text = "Pro&dutos";
             this.btnProdutos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProdutos.UseVisualStyleBackColor = true;
             // 
@@ -70,8 +70,8 @@ namespace ProjetoABC
             this.btnFornecedores.Location = new System.Drawing.Point(507, 41);
             this.btnFornecedores.Name = "btnFornecedores";
             this.btnFornecedores.Size = new System.Drawing.Size(200, 194);
-            this.btnFornecedores.TabIndex = 10;
-            this.btnFornecedores.Text = "Fornecedores";
+            this.btnFornecedores.TabIndex = 2;
+            this.btnFornecedores.Text = "&Fornecedores";
             this.btnFornecedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFornecedores.UseVisualStyleBackColor = true;
             // 
@@ -82,8 +82,8 @@ namespace ProjetoABC
             this.btnVendas.Location = new System.Drawing.Point(271, 278);
             this.btnVendas.Name = "btnVendas";
             this.btnVendas.Size = new System.Drawing.Size(200, 194);
-            this.btnVendas.TabIndex = 11;
-            this.btnVendas.Text = "Vendas";
+            this.btnVendas.TabIndex = 4;
+            this.btnVendas.Text = "&Vendas";
             this.btnVendas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnVendas.UseVisualStyleBackColor = true;
             // 
@@ -94,8 +94,8 @@ namespace ProjetoABC
             this.btnUsuarios.Location = new System.Drawing.Point(507, 278);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(200, 194);
-            this.btnUsuarios.TabIndex = 12;
-            this.btnUsuarios.Text = "Usuários";
+            this.btnUsuarios.TabIndex = 5;
+            this.btnUsuarios.Text = "&Usuários";
             this.btnUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnUsuarios.UseVisualStyleBackColor = true;
             // 
@@ -106,8 +106,8 @@ namespace ProjetoABC
             this.btnFuncionarios.Location = new System.Drawing.Point(36, 278);
             this.btnFuncionarios.Name = "btnFuncionarios";
             this.btnFuncionarios.Size = new System.Drawing.Size(200, 194);
-            this.btnFuncionarios.TabIndex = 13;
-            this.btnFuncionarios.Text = "Funcionários";
+            this.btnFuncionarios.TabIndex = 3;
+            this.btnFuncionarios.Text = "Funcionário&s";
             this.btnFuncionarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFuncionarios.UseVisualStyleBackColor = true;
             // 
@@ -116,7 +116,7 @@ namespace ProjetoABC
             this.btnVoltar.Location = new System.Drawing.Point(507, 500);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(200, 45);
-            this.btnVoltar.TabIndex = 14;
+            this.btnVoltar.TabIndex = 6;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
@@ -136,6 +136,7 @@ namespace ProjetoABC
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmMenuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - Menu Principal";
             this.ResumeLayout(false);
 

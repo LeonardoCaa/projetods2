@@ -30,62 +30,62 @@ namespace ProjetoABC
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
-            this.prgimage = new System.Windows.Forms.PictureBox();
-            this.bar = new System.Windows.Forms.ProgressBar();
-            this.lb = new System.Windows.Forms.Label();
-            this.lb2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.prgimage)).BeginInit();
+            this.pctSplash = new System.Windows.Forms.PictureBox();
+            this.pgbSplash = new System.Windows.Forms.ProgressBar();
+            this.lblPorcentagem = new System.Windows.Forms.Label();
+            this.lblPorc = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pctSplash)).BeginInit();
             this.SuspendLayout();
             // 
-            // prgimage
+            // pctSplash
             // 
-            this.prgimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.prgimage.Image = ((System.Drawing.Image)(resources.GetObject("prgimage.Image")));
-            this.prgimage.Location = new System.Drawing.Point(240, 112);
-            this.prgimage.Name = "prgimage";
-            this.prgimage.Size = new System.Drawing.Size(300, 225);
-            this.prgimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.prgimage.TabIndex = 0;
-            this.prgimage.TabStop = false;
+            this.pctSplash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pctSplash.Image = ((System.Drawing.Image)(resources.GetObject("pctSplash.Image")));
+            this.pctSplash.Location = new System.Drawing.Point(240, 112);
+            this.pctSplash.Name = "pctSplash";
+            this.pctSplash.Size = new System.Drawing.Size(300, 225);
+            this.pctSplash.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctSplash.TabIndex = 0;
+            this.pctSplash.TabStop = false;
             // 
-            // bar
+            // pgbSplash
             // 
-            this.bar.Location = new System.Drawing.Point(240, 399);
-            this.bar.Name = "bar";
-            this.bar.Size = new System.Drawing.Size(300, 32);
-            this.bar.TabIndex = 1;
-            this.bar.Click += new System.EventHandler(this.progressBar1_Click);
+            this.pgbSplash.Location = new System.Drawing.Point(240, 399);
+            this.pgbSplash.Name = "pgbSplash";
+            this.pgbSplash.Size = new System.Drawing.Size(300, 32);
+            this.pgbSplash.TabIndex = 1;
+            this.pgbSplash.Click += new System.EventHandler(this.progressBar1_Click);
             // 
-            // lb
+            // lblPorcentagem
             // 
-            this.lb.AutoSize = true;
-            this.lb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb.Location = new System.Drawing.Point(376, 372);
-            this.lb.Name = "lb";
-            this.lb.Size = new System.Drawing.Size(20, 24);
-            this.lb.TabIndex = 2;
-            this.lb.Text = "0";
-            this.lb.Click += new System.EventHandler(this.label1_Click);
+            this.lblPorcentagem.AutoSize = true;
+            this.lblPorcentagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPorcentagem.Location = new System.Drawing.Point(376, 372);
+            this.lblPorcentagem.Name = "lblPorcentagem";
+            this.lblPorcentagem.Size = new System.Drawing.Size(20, 24);
+            this.lblPorcentagem.TabIndex = 2;
+            this.lblPorcentagem.Text = "0";
+            this.lblPorcentagem.Click += new System.EventHandler(this.label1_Click);
             // 
-            // lb2
+            // lblPorc
             // 
-            this.lb2.AutoSize = true;
-            this.lb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb2.Location = new System.Drawing.Point(390, 372);
-            this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(25, 24);
-            this.lb2.TabIndex = 3;
-            this.lb2.Text = "%";
+            this.lblPorc.AutoSize = true;
+            this.lblPorc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPorc.Location = new System.Drawing.Point(390, 372);
+            this.lblPorc.Name = "lblPorc";
+            this.lblPorc.Size = new System.Drawing.Size(25, 24);
+            this.lblPorc.TabIndex = 3;
+            this.lblPorc.Text = "%";
             // 
             // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.lb2);
-            this.Controls.Add(this.lb);
-            this.Controls.Add(this.bar);
-            this.Controls.Add(this.prgimage);
+            this.Controls.Add(this.lblPorc);
+            this.Controls.Add(this.lblPorcentagem);
+            this.Controls.Add(this.pgbSplash);
+            this.Controls.Add(this.pctSplash);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -93,7 +93,7 @@ namespace ProjetoABC
             this.Name = "frmSplash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "loja ABC-Splash";
-            ((System.ComponentModel.ISupportInitialize)(this.prgimage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctSplash)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,9 +101,9 @@ namespace ProjetoABC
 
         #endregion
 
-        private System.Windows.Forms.PictureBox prgimage;
-        private System.Windows.Forms.ProgressBar bar;
-        private System.Windows.Forms.Label lb;
-        private System.Windows.Forms.Label lb2;
+        private System.Windows.Forms.PictureBox pctSplash;
+        private System.Windows.Forms.ProgressBar pgbSplash;
+        private System.Windows.Forms.Label lblPorcentagem;
+        private System.Windows.Forms.Label lblPorc;
     }
 }
