@@ -16,5 +16,13 @@ namespace ProjetoABC
         {
             InitializeComponent();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmLogin abrir = new frmLogin();
+            abrir.Show();
+            this.Hide();
+
+        }
     }
 }

@@ -59,7 +59,7 @@ namespace ProjetoABC
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(200, 194);
             this.btnProdutos.TabIndex = 1;
-            this.btnProdutos.Text = "Pro&dutos";
+            this.btnProdutos.Text = "&Produtos";
             this.btnProdutos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProdutos.UseVisualStyleBackColor = true;
             // 
@@ -119,6 +119,7 @@ namespace ProjetoABC
             this.btnVoltar.TabIndex = 6;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmMenuPrincipal
             // 
