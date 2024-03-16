@@ -21,3 +21,4 @@ C:\Users\Laboratorio-Info\Source\Repos\projetods2\ProjetoABC\obj\Debug\ProjetoAB
 C:\Users\Laboratorio-Info\Source\Repos\projetods2\ProjetoABC\obj\Debug\ProjetoABC.csproj.CoreCompileInputs.cache
 C:\Users\Laboratorio-Info\Source\Repos\projetods2\ProjetoABC\obj\Debug\ProjetoABC.exe
 C:\Users\Laboratorio-Info\Source\Repos\projetods2\ProjetoABC\obj\Debug\ProjetoABC.pdb
+C:\Users\Laboratorio-Info\Source\Repos\projetods2\ProjetoABC\obj\Debug\ProjetoABC.frmFuncionarios.resources
