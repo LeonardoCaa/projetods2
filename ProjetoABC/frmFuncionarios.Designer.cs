@@ -29,95 +29,117 @@ namespace ProjetoABC
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFuncionarios));
+            this.pnlFuncionarios = new System.Windows.Forms.Panel();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.pnlFuncionarios.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // pnlFuncionarios
+            // 
+            this.pnlFuncionarios.BackColor = System.Drawing.Color.RoyalBlue;
+            this.pnlFuncionarios.Controls.Add(this.btnVoltar);
+            this.pnlFuncionarios.Controls.Add(this.btnLimpar);
+            this.pnlFuncionarios.Controls.Add(this.btnPesquisar);
+            this.pnlFuncionarios.Controls.Add(this.btnAlterar);
+            this.pnlFuncionarios.Controls.Add(this.btnCadastrar);
+            this.pnlFuncionarios.Controls.Add(this.btnExcluir);
+            this.pnlFuncionarios.Controls.Add(this.btnNovo);
+            this.pnlFuncionarios.Location = new System.Drawing.Point(-4, 479);
+            this.pnlFuncionarios.Name = "pnlFuncionarios";
+            this.pnlFuncionarios.Size = new System.Drawing.Size(791, 84);
+            this.pnlFuncionarios.TabIndex = 1;
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(16, 68);
+            this.btnVoltar.Image = global::ProjetoABC.Properties.Resources.back;
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVoltar.Location = new System.Drawing.Point(668, 38);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(101, 33);
-            this.btnVoltar.TabIndex = 0;
-            this.btnVoltar.Text = "&Novo";
+            this.btnVoltar.TabIndex = 5;
+            this.btnVoltar.Text = "&Voltar";
+            this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVoltar.UseVisualStyleBackColor = true;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
-            // panel1
+            // btnLimpar
             // 
-            this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.btnVoltar);
-            this.panel1.Location = new System.Drawing.Point(-4, 448);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(791, 118);
-            this.panel1.TabIndex = 1;
+            this.btnLimpar.Image = global::ProjetoABC.Properties.Resources.sweeping;
+            this.btnLimpar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLimpar.Location = new System.Drawing.Point(561, 38);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(101, 33);
+            this.btnLimpar.TabIndex = 4;
+            this.btnLimpar.Text = "&Limpar";
+            this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLimpar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnPesquisar
             // 
-            this.button1.Location = new System.Drawing.Point(347, 68);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "&Excluir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Image = global::ProjetoABC.Properties.Resources.seach;
+            this.btnPesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPesquisar.Location = new System.Drawing.Point(454, 38);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(101, 33);
+            this.btnPesquisar.TabIndex = 3;
+            this.btnPesquisar.Text = "&Pesquisar";
+            this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPesquisar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnAlterar
             // 
-            this.button2.Location = new System.Drawing.Point(133, 68);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 33);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "&Cadastrar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAlterar.Image = global::ProjetoABC.Properties.Resources.refresh;
+            this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlterar.Location = new System.Drawing.Point(240, 38);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(101, 33);
+            this.btnAlterar.TabIndex = 2;
+            this.btnAlterar.Text = "&Alterar";
+            this.btnAlterar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAlterar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnCadastrar
             // 
-            this.button3.Location = new System.Drawing.Point(240, 68);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 33);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "&Alterar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrar.Image")));
+            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCadastrar.Location = new System.Drawing.Point(133, 38);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(101, 33);
+            this.btnCadastrar.TabIndex = 1;
+            this.btnCadastrar.Text = "&Cadastrar";
+            this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCadastrar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnExcluir
             // 
-            this.button4.Location = new System.Drawing.Point(454, 68);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(101, 33);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "&Pesquisar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnExcluir.Image = global::ProjetoABC.Properties.Resources.delete;
+            this.btnExcluir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExcluir.Location = new System.Drawing.Point(347, 38);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(101, 33);
+            this.btnExcluir.TabIndex = 1;
+            this.btnExcluir.Text = "&Excluir";
+            this.btnExcluir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExcluir.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnNovo
             // 
-            this.button5.Location = new System.Drawing.Point(561, 68);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(101, 33);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "&Limpar";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(668, 68);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(101, 33);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "&Voltar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
+            this.btnNovo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNovo.Location = new System.Drawing.Point(16, 38);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(101, 33);
+            this.btnNovo.TabIndex = 0;
+            this.btnNovo.Text = "&Novo";
+            this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmFuncionarios
             // 
@@ -125,26 +147,26 @@ namespace ProjetoABC
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.ControlBox = false;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlFuncionarios);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProjetoAbc-Funcionarios";
             this.Load += new System.EventHandler(this.frmFuncionarios_Load);
-            this.panel1.ResumeLayout(false);
+            this.pnlFuncionarios.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.Panel pnlFuncionarios;
         private System.Windows.Forms.Button btnVoltar;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnExcluir;
     }
 }
