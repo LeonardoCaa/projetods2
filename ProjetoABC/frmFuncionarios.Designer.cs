@@ -132,6 +132,7 @@ namespace ProjetoABC
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(466, 57);
+            this.textBox3.MaxLength = 100;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(287, 24);
             this.textBox3.TabIndex = 3;
@@ -148,6 +149,7 @@ namespace ProjetoABC
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(76, 57);
+            this.textBox2.MaxLength = 100;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(325, 24);
             this.textBox2.TabIndex = 2;
@@ -163,7 +165,9 @@ namespace ProjetoABC
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(76, 23);
+            this.textBox1.MaxLength = 10;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 24);
             this.textBox1.TabIndex = 1;
@@ -282,6 +286,7 @@ namespace ProjetoABC
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(76, 163);
+            this.textBox4.MaxLength = 100;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(325, 24);
             this.textBox4.TabIndex = 6;
@@ -324,6 +329,7 @@ namespace ProjetoABC
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(482, 163);
+            this.textBox5.MaxLength = 5;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 24);
             this.textBox5.TabIndex = 7;
@@ -331,6 +337,7 @@ namespace ProjetoABC
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(76, 227);
+            this.textBox6.MaxLength = 100;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(179, 24);
             this.textBox6.TabIndex = 9;
@@ -338,6 +345,7 @@ namespace ProjetoABC
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(331, 227);
+            this.textBox7.MaxLength = 100;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(179, 24);
             this.textBox7.TabIndex = 10;
